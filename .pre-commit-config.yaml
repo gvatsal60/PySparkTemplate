@@ -33,7 +33,6 @@ repos:
       - id: name-tests-test
       - id: pretty-format-json
         args: [--autofix]
-        exclude_types: [ipynb]
       - id: requirements-txt-fixer
       - id: trailing-whitespace
   # Uses pygrep to enforce Python type annotations.
