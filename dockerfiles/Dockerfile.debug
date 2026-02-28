@@ -12,7 +12,7 @@ ENV SPARK_HOME=/spark
 # Install dependencies
 RUN apt-get update \
     && apt-get -y install --no-install-recommends \
-    openjdk-17-jre \
+    openjdk-17-jre-headless \
     && apt-get autoremove -y \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/*
